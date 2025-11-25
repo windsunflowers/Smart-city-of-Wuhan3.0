@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>智慧武汉</title>
+  
+  <!-- 使用 Cesium 官方 CDN -->
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.109/Build/Cesium/Cesium.js"></script>
+  <link rel="stylesheet" href="https://cesium.com/downloads/cesiumjs/releases/1.109/Build/Cesium/Widgets/widgets.css">
+  
+  <!-- 添加 CSP 元标签 -->
+  <meta http-equiv="Content-Security-Policy" content="worker-src 'self' blob:; child-src 'self' blob:; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cesium.com;">
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

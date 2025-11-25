@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+html,
+body {
+  overflow: hidden;
+  height: 100%;
+}
