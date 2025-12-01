@@ -15,6 +15,7 @@
     "@antv/l7-draw": "^3.0.25",
     "@antv/l7-maps": "^2.15.2",
     "@babel/runtime": "^7.21.5",
+    "@element-plus/icons-vue": "^2.3.2",
     "@opd/g2plot-vue": "^3.6.6",
     "@turf/turf": "^6.5.0",
     "@types/three": "^0.181.0",

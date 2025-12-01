@@ -26,6 +26,9 @@ importers:
       '@babel/runtime':
         specifier: ^7.21.5
         version: 7.27.6
+      '@element-plus/icons-vue':
+        specifier: ^2.3.2
+        version: 2.3.2(vue@3.5.17)
       '@opd/g2plot-vue':
         specifier: ^3.6.6
         version: 3.6.10(@antv/g2plot@2.4.33)(@babel/runtime@7.27.6)(vue@3.5.17)
@@ -221,8 +224,8 @@ packages:
   '@dimforge/rapier3d-compat@0.12.0':
     resolution: {integrity: sha512-uekIGetywIgopfD97oDL5PfeezkFpNhwlzlaEYNOA0N6ghdsOvh/HYjSMek5Q2O1PYvRSDFcqFVJl4r4ZBwOow==}
 
-  '@element-plus/icons-vue@2.3.1':
-    resolution: {integrity: sha512-XxVUZv48RZAd87ucGS48jPf6pKu0yV5UCg9f4FFwtrYxXOwWuVJo6wOvSLKEoMQKjv8GsX/mhP6UsC1lRwbUWg==}
+  '@element-plus/icons-vue@2.3.2':
+    resolution: {integrity: sha512-OzIuTaIfC8QXEPmJvB4Y4kw34rSXdCJzxcD1kFStBvr8bK6X1zQAYDo0CNMjojnfTqRQCJ0I7prlErcoRiET2A==}
     peerDependencies:
       vue: ^3.2.0
 
@@ -2925,7 +2928,7 @@ snapshots:
 
   '@dimforge/rapier3d-compat@0.12.0': {}
 
-  '@element-plus/icons-vue@2.3.1(vue@3.5.17)':
+  '@element-plus/icons-vue@2.3.2(vue@3.5.17)':
     dependencies:
       vue: 3.5.17
 
@@ -4453,7 +4456,7 @@ snapshots:
   element-plus@2.10.4(vue@3.5.17):
     dependencies:
       '@ctrl/tinycolor': 3.6.1
-      '@element-plus/icons-vue': 2.3.1(vue@3.5.17)
+      '@element-plus/icons-vue': 2.3.2(vue@3.5.17)
       '@floating-ui/dom': 1.7.2
       '@popperjs/core': '@sxzz/popperjs-es@2.11.7'
       '@types/lodash': 4.17.20

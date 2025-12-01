@@ -390,7 +390,7 @@ export default () => {
 
         centerPointLayer = new PointLayer({ zIndex: 6 })
           .source([{ coordinates: centerLocation.coordinates }], { parser: { type: 'json', coordinates: 'coordinates' } })
-          .shape('circle').size(30).color('#FF9800').style({ opacity: 0.2 })
+          .shape('circle').size(100).color('#FF9800').style({ opacity: 0.2 })
         scene.addLayer(centerPointLayer)
 
         map?.flyTo({ center: centerLocation.coordinates, zoom: 13 })
