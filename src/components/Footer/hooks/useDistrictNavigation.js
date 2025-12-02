@@ -1,99 +1,58 @@
 import { ref, inject } from 'vue'
-import { wuhanDistrictsData } from './wuhanDistrictsData.js'
 import { PolygonLayer } from '@antv/l7'
+// 1. 直接导入本地 JSON 文件
+// 请确保 wuhan_districts.json 文件位于当前目录，或者修改为正确的相对路径
+import rawDistrictData from './wuhan_districts.json'
 
 export default () => {
   const { map, scene } = inject('$scene_map')
   const districts = ref([])
   const loading = ref(false)
-  const selectedDistrict = ref(null) // 当前选中的区域
-  let highlightLayer = null // 高亮图层
+  const selectedDistrict = ref(null) 
+  let highlightLayer = null 
 
-  // 获取武汉市行政区数据
+  // 获取武汉市行政区数据 (改为同步加载本地数据)
   const fetchDistricts = async () => {
     loading.value = true
     try {
-      // 尝试获取武汉市的完整边界数据
-      const response = await fetch('https://geo.datav.aliyun.com/areas_v3/bound/420100_full.json')
-      const data = await response.json()
+      console.log('开始加载本地武汉区划数据...')
       
-      console.log('武汉市区县数据:', data) // 调试日志
-      
-      if (data.features && data.features.length > 0) {
-        // 直接使用武汉市的区县数据
-        districts.value = data.features.map(feature => ({
+      // 2. 解析数据
+      // 注意：根据你提供的 json 内容，最外层是一个数组 [...]，里面包含 FeatureCollection
+      // 所以我们需要取 rawDistrictData[0]
+      const featureCollection = Array.isArray(rawDistrictData) ? rawDistrictData[0] : rawDistrictData
+
+      if (featureCollection && featureCollection.features) {
+        districts.value = featureCollection.features.map(feature => ({
           name: feature.properties.name,
           adcode: feature.properties.adcode,
-          geometry: feature.geometry
+          geometry: feature.geometry,
+          // 保留中心点数据，如果 JSON 里有的话，这对视角跳转很有用
+          center: feature.properties.center || feature.properties.centroid
         }))
-        console.log('成功获取到', districts.value.length, '个区县')
+        console.log(`成功加载 ${districts.value.length} 个区域数据`)
       } else {
-        // 如果直接获取武汉市数据失败，尝试从湖北省数据中过滤
-        console.log('尝试从湖北省数据中过滤武汉区县')
-        const hubeiResponse = await fetch('https://geo.datav.aliyun.com/areas_v3/bound/420000_full.json')
-        const hubeiData = await hubeiResponse.json()
-        
-        const wuhanDistricts = hubeiData.features.filter(feature => {
-          const adcode = feature.properties.adcode
-          // 武汉市各区县的行政区代码
-          const wuhanDistrictCodes = [
-            '420102', // 江岸区
-            '420103', // 江汉区
-            '420104', // 硚口区
-            '420105', // 汉阳区
-            '420106', // 武昌区
-            '420107', // 青山区
-            '420111', // 洪山区
-            '420112', // 东西湖区
-            '420113', // 汉南区
-            '420114', // 蔡甸区
-            '420115', // 江夏区
-            '420116', // 黄陂区
-            '420117'  // 新洲区
-          ]
-          return wuhanDistrictCodes.includes(adcode.toString())
-        })
-        
-        if (wuhanDistricts.length > 0) {
-          districts.value = wuhanDistricts.map(feature => ({
-            name: feature.properties.name,
-            adcode: feature.properties.adcode,
-            geometry: feature.geometry
-          }))
-          console.log('从湖北省数据中过滤出', districts.value.length, '个武汉区县')
-        } else {
-          // 如果API数据为空，使用备用数据
-          console.log('API数据为空，使用备用数据')
-          districts.value = wuhanDistrictsData.features.map(feature => ({
-            name: feature.properties.name,
-            adcode: feature.properties.adcode,
-            geometry: feature.geometry
-          }))
-        }
+        console.error('JSON 数据格式不符合预期')
       }
     } catch (error) {
-      console.error('获取行政区数据失败，使用备用数据:', error)
-      // 使用备用数据
-      districts.value = wuhanDistrictsData.features.map(feature => ({
-        name: feature.properties.name,
-        adcode: feature.properties.adcode,
-        geometry: feature.geometry
-      }))
+      console.error('加载行政区数据出错:', error)
     } finally {
-      loading.value = false
+      // 模拟一点点延迟，让用户感觉到交互（可选，也可以直接设为 false）
+      setTimeout(() => {
+        loading.value = false
+      }, 300)
     }
   }
 
   // 创建高亮图层
   const createHighlightLayer = () => {
-    // 移除之前的高亮图层
     if (highlightLayer) {
       scene.removeLayer(highlightLayer)
     }
     
-    // 创建新的高亮图层
     highlightLayer = new PolygonLayer({
-      name: 'district-highlight'
+      name: 'district-highlight',
+      zIndex: 10 // 确保图层在上方
     })
       .source({
         type: 'FeatureCollection',
@@ -121,12 +80,10 @@ export default () => {
   const highlightDistrict = (district) => {
     if (!district.geometry) return
     
-    // 确保高亮图层存在
     if (!highlightLayer) {
       createHighlightLayer()
     }
     
-    // 更新高亮图层数据
     const highlightData = {
       type: 'FeatureCollection',
       features: [{
@@ -156,20 +113,28 @@ export default () => {
   const flyToDistrict = (district) => {
     if (!district.geometry) return
     
-    // 更新选中的区域
     selectedDistrict.value = district
-    
-    // 高亮该区域
     highlightDistrict(district)
     
-    // 计算区域的边界框
+    // 优先使用数据中自带的 center 或 centroid (如果有)
+    // 这样比计算 fitBounds 更平滑准确
+    if (district.center) {
+        map.flyTo({
+            center: district.center,
+            zoom: 11, // 针对区级视角设定合适的 zoom
+            pitch: 45,
+            duration: 2000
+        })
+        return
+    }
+
+    // 如果没有 center 属性，则回退到计算边界框逻辑
     let coordinates = district.geometry.coordinates
-    
-    // 处理不同的几何类型
     if (district.geometry.type === 'Polygon') {
-      coordinates = coordinates[0] // 取外环坐标
+      coordinates = coordinates[0]
     } else if (district.geometry.type === 'MultiPolygon') {
-      coordinates = coordinates[0][0] // 取第一个多边形的外环坐标
+      // 对于 MultiPolygon，这里简单取第一个多边形计算，或者你可以遍历所有
+      coordinates = coordinates[0][0] 
     }
     
     let minLng = Infinity, maxLng = -Infinity
@@ -182,15 +147,11 @@ export default () => {
       maxLat = Math.max(maxLat, coord[1])
     })
     
-    // 计算中心点和边界
-    const center = [(minLng + maxLng) / 2, (minLat + maxLat) / 2]
     const bounds = [[minLng, minLat], [maxLng, maxLat]]
     
-    // 飞行到指定区域
     map.fitBounds(bounds, {
       padding: 50,
-      duration: 2000,
-      easing: (n) => n
+      duration: 2000
     })
   }
 
@@ -203,4 +164,4 @@ export default () => {
     highlightDistrict,
     clearHighlight
   }
-} 
+}
