@@ -7,7 +7,7 @@ export default async () => {
   const building_data = await getCityBuildings()
 
   const building_layer = new CityBuildingLayer({
-    name: '武汉市',
+    name: '建筑',
   })
 
   // 配置图层

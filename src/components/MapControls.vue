@@ -68,7 +68,7 @@ const isDragging = ref(false)
 const dragOffset = ref({ x: 0, y: 0 })
 
 // 天地图密钥 - 请替换为您的实际密钥
-const tiandituToken = '0605f7bbb554ce735d35048a5217625e'
+// const tiandituToken = 
 
 // 地图主题配置
 const themeOptions = [

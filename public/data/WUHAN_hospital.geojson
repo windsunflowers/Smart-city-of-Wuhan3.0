@@ -1,0 +1,538 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-07-21T03:09:56Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/895722272",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1678301,
+          30.494802
+        ]
+      },
+      "id": "node/895722272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1143369262",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3871137,
+          30.4547248
+        ]
+      },
+      "id": "node/1143369262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1282454828",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "关山街社区卫生服务站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4065214,
+          30.5101016
+        ]
+      },
+      "id": "node/1282454828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1481938104",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "荣军医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3718676,
+          30.5080757
+        ]
+      },
+      "id": "node/1481938104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1708308749",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉理工大学余家头校区医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.350843,
+          30.6058182
+        ]
+      },
+      "id": "node/1708308749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1880458927",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉博大医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2841943,
+          30.581932
+        ]
+      },
+      "id": "node/1880458927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1880487196",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "江岸区先锋医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.284222,
+          30.5887033
+        ]
+      },
+      "id": "node/1880487196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1882108666",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市第八医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3000568,
+          30.6060589
+        ]
+      },
+      "id": "node/1882108666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1882357302",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉亚洲心脏病医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2770445,
+          30.5854626
+        ]
+      },
+      "id": "node/1882357302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1884998943",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2610786,
+          30.568009
+        ]
+      },
+      "id": "node/1884998943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1886678465",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市汉水医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2353011,
+          30.5777662
+        ]
+      },
+      "id": "node/1886678465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2401208945",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "南湖妇产医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3195174,
+          30.5155593
+        ]
+      },
+      "id": "node/2401208945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2446691098",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉博仕肛肠医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3105842,
+          30.5553859
+        ]
+      },
+      "id": "node/2446691098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2570979019",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉理工大学校医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3420498,
+          30.5254591
+        ]
+      },
+      "id": "node/2570979019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3061019294",
+        "addr:city": "武汉市",
+        "addr:district": "洪山区",
+        "addr:postcode": "430074",
+        "addr:province": "湖北省",
+        "addr:street": "鲁磨路",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "中国地质大学医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3977511,
+          30.5231498
+        ]
+      },
+      "id": "node/3061019294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4475011096",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武昌医院体检中心",
+        "name:en": "Wuchang Hospital Medical Examination Center",
+        "name:zh": "武昌医院体检中心"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3399096,
+          30.6076941
+        ]
+      },
+      "id": "node/4475011096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4711176689",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉艾尔眼科医院",
+        "name:zh": "武汉艾尔眼科医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3138701,
+          30.5418413
+        ]
+      },
+      "id": "node/4711176689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7170382617",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市第四医院常青分院",
+        "name:en": "Wuhan No.4 Hospital Changqing Branch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2301337,
+          30.6385447
+        ]
+      },
+      "id": "node/7170382617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7170382618",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市第四健康门诊",
+        "name:en": "Wuhan No.4 Health Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2148304,
+          30.561203
+        ]
+      },
+      "id": "node/7170382618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7170382619",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉科技大学附属普仁医院",
+        "name:en": "Wuhan Puren Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.375194,
+          30.6342616
+        ]
+      },
+      "id": "node/7170382619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7211056740",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name:en": "Wuhan Mental Health Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2684131,
+          30.577025
+        ]
+      },
+      "id": "node/7211056740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8774650551",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉新洲佳人医院",
+        "name:en": "Wuhan Xinzhoujiaren Hospital",
+        "name:zh": "武汉新洲佳人医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.8027616,
+          30.8350412
+        ]
+      },
+      "id": "node/8774650551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9555974805",
+        "alt_name": "校医院信息学部二门诊院区",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武大测绘社区卫生服务站",
+        "website": "https://hospital.whu.edu.cn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3522021,
+          30.5313869
+        ]
+      },
+      "id": "node/9555974805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9860726615",
+        "addr:city": "武汉",
+        "addr:district": "武昌",
+        "addr:housenumber": "1",
+        "addr:street": "友谊大道才华街",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉京都结石医院",
+        "operator": "武汉京都结石泌尿外科医院有限公司",
+        "operator:type": "private",
+        "website": "http://www.hbjieshi.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3406523,
+          30.5960435
+        ]
+      },
+      "id": "node/9860726615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9868918633",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "新洲区红十字会医院",
+        "name:zh": "新洲区邾城街第二社区卫生服务中心"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.7915284,
+          30.8458487
+        ]
+      },
+      "id": "node/9868918633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9880823127",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "门诊部"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3746051,
+          30.6264521
+        ]
+      },
+      "id": "node/9880823127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9880823128",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "急诊"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3747013,
+          30.6263325
+        ]
+      },
+      "id": "node/9880823128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10150955772",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市汉口医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2951136,
+          30.6284624
+        ]
+      },
+      "id": "node/10150955772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11794894869",
+        "amenity": "hospital",
+        "name": "武汉德亚口腔医院",
+        "name:en": "Wuhan Deya Stomatological Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2567883,
+          30.617982
+        ]
+      },
+      "id": "node/11794894869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12561322327",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "汉阳爱尔眼科医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.222595,
+          30.563268
+        ]
+      },
+      "id": "node/12561322327"
+    }
+  ]
+}

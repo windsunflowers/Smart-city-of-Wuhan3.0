@@ -1,0 +1,3391 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-07-22T03:23:05Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19188125",
+        "alt_name": "武汉体育学院附属医院",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉中西医结合骨科医院",
+        "old_name": "武汉市六七二医院",
+        "type": "multipolygon",
+        "website": "https://www.hbgkyy.com.cn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3614054,
+          30.5234264
+        ]
+      },
+      "id": "relation/19188125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/19188131",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "武汉大学中南医院",
+        "name:en": "Zhongnan Hospital of Wuhan University",
+        "name:zh": "武汉大学中南医院",
+        "type": "multipolygon",
+        "website": "https://www.znhospital.cn/",
+        "wikidata": "Q11124545",
+        "wikipedia": "zh:武汉大学中南医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3481618,
+          30.5558024
+        ]
+      },
+      "id": "relation/19188131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/101817145",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "湖北省妇幼保健院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3467339,
+          30.5305417
+        ]
+      },
+      "id": "way/101817145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103636526",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "湖北省地质职工医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3671891,
+          30.5313609
+        ]
+      },
+      "id": "way/103636526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103642342",
+        "amenity": "hospital",
+        "building": "hospital",
+        "healthcare": "hospital",
+        "name": "校医院",
+        "official_name": "武汉大学医院",
+        "website": "https://hospital.whu.edu.cn/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3584786,
+          30.5358402
+        ]
+      },
+      "id": "way/103642342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103754213",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "landuse": "military",
+        "name": "中部战区总医院",
+        "name:zh": "中部战区总医院",
+        "name:zh-Hans": "中部战区总医院",
+        "name:zh-Hant": "中部戰區總醫院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3392449,
+          30.5333736
+        ]
+      },
+      "id": "way/103754213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103757019",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "traditional_chinese_medicine",
+        "name": "东校区医院",
+        "operator": "华中科技大学",
+        "operator:type": "school",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.426617,
+          30.5109333
+        ]
+      },
+      "id": "way/103757019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103757490",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "华科主校区医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4089742,
+          30.5197195
+        ]
+      },
+      "id": "way/103757490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/104947972",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "湖北省疾病预防控制中心门诊部",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3679642,
+          30.5273488
+        ]
+      },
+      "id": "way/104947972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/109359006",
+        "amenity": "hospital",
+        "name": "武汉工程大学校医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3855969,
+          30.5032816
+        ]
+      },
+      "id": "way/109359006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/109366158",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉明德肛肠医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.377667,
+          30.5059923
+        ]
+      },
+      "id": "way/109366158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/116577978",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "武汉大学人民医院 (湖北省人民医院)",
+        "name:en": "Renmin Hospital of Wuhan University / Hubei General Hospital",
+        "name:zh": "武汉大学人民医院 (湖北省人民医院)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2938937,
+          30.5377701
+        ]
+      },
+      "id": "way/116577978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/132646537",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉科技大学附属汉阳医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2404073,
+          30.5509519
+        ]
+      },
+      "id": "way/132646537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/132687801",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "武汉市第五医院",
+        "name:en": "Wuhan No.5 Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.266232,
+          30.5505477
+        ]
+      },
+      "id": "way/132687801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/135355968",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉科技大学附属天佑医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3210854,
+          30.5271303
+        ]
+      },
+      "id": "way/135355968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/178125314",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市第四医院（武胜路院区）",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2614425,
+          30.5682947
+        ]
+      },
+      "id": "way/178125314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/233598511",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武漢大學人民醫院 (湖北省人民醫院)東院 / 光谷中心醫院",
+        "name:zh": "武漢大學人民醫院 (湖北省人民醫院)東院 / 光谷中心醫院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.435297,
+          30.4440068
+        ]
+      },
+      "id": "way/233598511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/236672651",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "湖北省中医院",
+        "wikidata": "Q30269952",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3111354,
+          30.5534406
+        ]
+      },
+      "id": "way/236672651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306379133",
+        "alt_name": "校医院工学部一门诊院区",
+        "amenity": "hospital",
+        "building": "hospital",
+        "healthcare": "hospital",
+        "name": "武昌区珞珈山街武大社区卫生服务中心",
+        "website": "https://hospital.whu.edu.cn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3541172,
+          30.5442817
+        ]
+      },
+      "id": "way/306379133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/443492448",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "中南财经政法大学校医院",
+        "operator": "中南财经政法大学",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3824948,
+          30.4750301
+        ]
+      },
+      "id": "way/443492448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/451245076",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.300105,
+          30.6060431
+        ]
+      },
+      "id": "way/451245076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/470200969",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "湖北省肿瘤医院",
+        "name:en": "Hubei Cancer Hospital",
+        "name:zh": "湖北省肿瘤医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3592293,
+          30.5032345
+        ]
+      },
+      "id": "way/470200969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475046230",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "校医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3054556,
+          30.4858763
+        ]
+      },
+      "id": "way/475046230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/494201659",
+        "amenity": "hospital",
+        "building:levels": "6",
+        "healthcare": "hospital",
+        "museum": "science",
+        "name": "武汉第一口腔医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2585746,
+          30.5972226
+        ]
+      },
+      "id": "way/494201659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/494588329",
+        "addr:city": "武汉市",
+        "addr:district": "江岸区",
+        "addr:housenumber": "100",
+        "addr:province": "湖北省",
+        "addr:street": "香港路",
+        "alt_name": "武汉市妇女儿童医疗保健中心;武汉市妇幼保健院;湖北省儿童医疗中心;华中科技大学同济医学院第六临床学院",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "武汉儿童医院",
+        "name:en": "Wuhan Children’s Hospital",
+        "name:zh": "武汉儿童医院",
+        "name:zh-Hans": "武汉儿童医院",
+        "name:zh-Hant": "武漢兒童醫院",
+        "official_name": "华中科技大学同济医学院附属武汉儿童医院",
+        "official_name:en": "Wuhan Children's Hospital affiliated to Tongji Medical College of Huazhong University of Science and Technology",
+        "official_name:zh": "华中科技大学同济医学院附属武汉儿童医院",
+        "operator": "武汉儿童医院",
+        "operator:type": "public",
+        "phone": "+86 27 82433350",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2827367,
+          30.6059206
+        ]
+      },
+      "id": "way/494588329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/573578551",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "爱尔康大药房",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3158547,
+          30.5064103
+        ]
+      },
+      "id": "way/573578551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/573578552",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "天济大药房",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3167945,
+          30.5063984
+        ]
+      },
+      "id": "way/573578552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/590699632",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3139072,
+          30.3899991
+        ]
+      },
+      "id": "way/590699632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/634764813",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "江夏区第一人民医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3149596,
+          30.3735195
+        ]
+      },
+      "id": "way/634764813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/637737572",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "同济医院(光谷院区)",
+        "name:zh": "同济医院(光谷院区)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4581106,
+          30.4900883
+        ]
+      },
+      "id": "way/637737572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/690674886",
+        "addr:city": "武汉市",
+        "addr:district": "江汉区",
+        "addr:housenumber": "1277号",
+        "addr:postcode": "430022",
+        "addr:province": "湖北省",
+        "addr:street": "解放大道",
+        "alt_name": "华中科技大学同济医学院第一临床学院",
+        "alt_name:en": "Wuhan Union Hospital",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "武汉协和医院",
+        "name:en": "Wuhan Union Hospital",
+        "name:zh": "武汉协和医院",
+        "official_name": "华中科技大学同济医学院协和医院",
+        "official_name:en": "Union Hospital, Tongji Medical College of HUST",
+        "official_name:zh": "华中科技大学同济医学院协和医院",
+        "operator": "华中科技大学医科管理委员会",
+        "short_name": "协和医院",
+        "short_name:en": "Union Hospital",
+        "short_name:zh": "协和医院",
+        "website": "http://www.whuh.com/",
+        "wikidata": "Q11124475",
+        "wikipedia": "zh:武汉协和医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2692584,
+          30.5866493
+        ]
+      },
+      "id": "way/690674886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/690674915",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "武汉市第一医院",
+        "name:en": "Wuhan No.1 Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2668678,
+          30.5744575
+        ]
+      },
+      "id": "way/690674915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/690674920",
+        "addr:city": "武汉市",
+        "addr:district": "硚口区",
+        "addr:housenumber": "1095号",
+        "addr:postcode": "430030",
+        "addr:province": "湖北省",
+        "addr:street": "解放大道",
+        "alt_name": "华中科技大学同济医学院第二临床学院",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "武汉同济医院",
+        "name:de": "Wuhan Tongji Klinikum",
+        "name:en": "Wuhan Tongji Hospital",
+        "name:zh": "武汉同济医院",
+        "official_name": "华中科技大学同济医学院同济医院",
+        "official_name:de": "Tongji Klinikum, Tongji Medical College, Huazhong Universitaet fuer Wissenschaft und Technologie",
+        "official_name:en": "Tongji Hospital, Tongji Medical College of HUST",
+        "official_name:zh": "华中科技大学同济医学院同济医院",
+        "operator": "华中科技大学医科管理委员会",
+        "short_name": "同济医院",
+        "short_name:de": "Tongji Klinikum",
+        "short_name:en": "Tongji Hospital",
+        "short_name:zh": "同济医院",
+        "website": "https://www.tjh.com.cn/",
+        "wikidata": "Q11124485",
+        "wikipedia": "zh:武汉同济医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2543508,
+          30.582095
+        ]
+      },
+      "id": "way/690674920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/738436184",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉科技大学德康医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2886057,
+          30.4812541
+        ]
+      },
+      "id": "way/738436184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/765267933",
+        "addr:city": "武汉市",
+        "addr:district": "东西湖区",
+        "addr:housenumber": "1号",
+        "addr:postcode": "420112",
+        "addr:province": "湖北省",
+        "addr:street": "银潭路",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "武汉市金银潭医院",
+        "name:en": "Wuhan Jinyintan Hospital",
+        "name:zh": "武汉市金银潭医院",
+        "old_name": "武汉市医疗救治中心",
+        "old_name:zh": "武汉市医疗救治中心",
+        "operator": "武汉市卫生健康委员会",
+        "operator:type": "government",
+        "phone": "+86 27 8636 5341",
+        "start_date": "2008",
+        "website": "http://www.whyljz.com.cn/",
+        "wikidata": "Q83538860",
+        "wikipedia": "zh:武汉市金银潭医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2797453,
+          30.6688132
+        ]
+      },
+      "id": "way/765267933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/765883856",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市优抚医院",
+        "name:en": "Wuhan Veterans Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2551434,
+          30.6190146
+        ]
+      },
+      "id": "way/765883856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/766315840",
+        "alt_name:vi": "Nhà thương Hỏa Thần Sơn;Bệnh viện Hoả Thần Sơn;Nhà thương Hoả Thần Sơn",
+        "amenity": "hospital",
+        "construction": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "火神山医院",
+        "name:en": "Huoshenshan Hospital",
+        "name:vi": "Bệnh viện Hỏa Thần Sơn",
+        "opening_date": "2020-02-03",
+        "wikidata": "Q83554783",
+        "wikipedia": "zh:武汉火神山医院",
+        "wikipedia:en": "Huoshenshan Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0825943,
+          30.5302291
+        ]
+      },
+      "id": "way/766315840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/767029790",
+        "alt_name:vi": "Nhà thương Lôi Thần Sơn",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "雷神山医院",
+        "name:en": "Leishanshan Hospital",
+        "name:vi": "Bệnh viện Lôi Thần Sơn",
+        "name:zh": "雷神山医院",
+        "wikidata": "Q83766264",
+        "wikipedia": "zh:雷神山医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2863201,
+          30.432894
+        ]
+      },
+      "id": "way/767029790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/767972194",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "武汉市中心医院",
+        "name:en": "Central Hospital of Wuhan",
+        "wikidata": "Q84562347",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2895659,
+          30.58363
+        ]
+      },
+      "id": "way/767972194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/767972195",
+        "alt_name": "湖北省新华医院",
+        "alt_name:en": "Hubei Xinhua Hospital",
+        "alt_name:zh": "湖北省新华医院",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "湖北省中西医结合医院",
+        "name:en": "Hubei Provincial Hospital of Integrated Chinese & Western Medicine",
+        "name:zh": "湖北省中西医结合医院",
+        "wikidata": "Q97300340",
+        "wikipedia": "zh:湖北省中西医结合医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2681994,
+          30.610113
+        ]
+      },
+      "id": "way/767972195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/772771284",
+        "addr:housenumber": "36",
+        "addr:street": "玫瑰街",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市中医医院(二桥分院)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2077929,
+          30.5683267
+        ]
+      },
+      "id": "way/772771284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/772915832",
+        "amenity": "hospital",
+        "building": "hospital",
+        "healthcare": "hospital",
+        "name": "同济医学院医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2541974,
+          30.5880368
+        ]
+      },
+      "id": "way/772915832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/779843665",
+        "addr:city": "武汉市",
+        "addr:district": "洪山区",
+        "addr:housenumber": "152",
+        "addr:province": "湖北省",
+        "addr:street": "桂北路",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "华中师范大学校医院",
+        "operator": "华中师范大学",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3568966,
+          30.5220528
+        ]
+      },
+      "id": "way/779843665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/814025989",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市职业病防治院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2748213,
+          30.5923573
+        ]
+      },
+      "id": "way/814025989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/821871328",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1083938,
+          30.5504498
+        ]
+      },
+      "id": "way/821871328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/851875222",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武漢亞心總醫院",
+        "name:zh": "武漢亞心總醫院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1977249,
+          30.5029162
+        ]
+      },
+      "id": "way/851875222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/891409883",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "益丰大药房",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3177335,
+          30.506929
+        ]
+      },
+      "id": "way/891409883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/891416086",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "天济大药房",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3166523,
+          30.5032318
+        ]
+      },
+      "id": "way/891416086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/895722272",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1678301,
+          30.494802
+        ]
+      },
+      "id": "node/895722272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/947955623",
+        "amenity": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.5649121,
+          30.6440378
+        ]
+      },
+      "id": "way/947955623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/947964704",
+        "amenity": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.6738626,
+          30.8758947
+        ]
+      },
+      "id": "way/947964704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/947965654",
+        "amenity": "hospital",
+        "name": "阳逻街卫生院",
+        "name:en": "Yangluojie Health Station",
+        "name:zh": "阳逻街卫生院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.5682,
+          30.6697522
+        ]
+      },
+      "id": "way/947965654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/947969062",
+        "amenity": "hospital",
+        "name": "湖北省中山医院(阳逻院区)",
+        "name:zh": "湖北省中山医院(阳逻院区)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.5782627,
+          30.6789415
+        ]
+      },
+      "id": "way/947969062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/947982496",
+        "amenity": "hospital",
+        "name": "新洲区中医医院",
+        "name:en": "Xinzhou District Zhongyi Hospital",
+        "name:zh": "新洲区中医医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.8003778,
+          30.854446
+        ]
+      },
+      "id": "way/947982496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/947982947",
+        "amenity": "hospital",
+        "name": "新洲区妇幼保健院",
+        "name:en": "Xinzhou District Maternal and Children Health Hospital",
+        "name:zh": "新洲区妇幼保健院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.7923694,
+          30.8363366
+        ]
+      },
+      "id": "way/947982947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/947983041",
+        "amenity": "hospital",
+        "name": "武汉市新洲区人民医院",
+        "name:en": "Wuhan Xinzhouqu People's Hospital",
+        "name:zh": "武汉市新洲区人民医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.7979795,
+          30.8455815
+        ]
+      },
+      "id": "way/947983041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/986836971",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "landuse": "military",
+        "name": "中国人民解放军第一六一医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3035273,
+          30.6182847
+        ]
+      },
+      "id": "way/986836971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1008259976",
+        "amenity": "clinic",
+        "name": "黄陂区蔡家榨街道卫生院",
+        "name:en": "Huangpi Caijiazha Subdistrict Health Station",
+        "name:zh": "黄陂区蔡家榨街道卫生院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.5306958,
+          30.9278031
+        ]
+      },
+      "id": "way/1008259976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1011161873",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉都市妇产医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2589655,
+          30.5991201
+        ]
+      },
+      "id": "way/1011161873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1012078987",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "校医院北区",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4092123,
+          30.5206292
+        ]
+      },
+      "id": "way/1012078987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1017309480",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "普爱医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1992149,
+          30.5953361
+        ]
+      },
+      "id": "way/1017309480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1030863110",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉楷恩医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3837953,
+          30.5328495
+        ]
+      },
+      "id": "way/1030863110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1046876521",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "湖北省中医院光谷院区",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4026974,
+          30.507942
+        ]
+      },
+      "id": "way/1046876521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1047432452",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "武汉长动医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4056187,
+          30.5081899
+        ]
+      },
+      "id": "way/1047432452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1071699813",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3358016,
+          30.6049369
+        ]
+      },
+      "id": "way/1071699813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1073193549",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "钢都花园-社区卫生服务中心",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3634481,
+          30.6153655
+        ]
+      },
+      "id": "way/1073193549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1077662230",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;intensive",
+        "name": "武汉市第九医院",
+        "website": "https://wh9yy.cn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3745043,
+          30.6258101
+        ]
+      },
+      "id": "way/1077662230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1078913415",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "黄陂区妇幼保健院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3663081,
+          30.888038
+        ]
+      },
+      "id": "way/1078913415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1078913421",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "黄陂区人民医院",
+        "website": "https://www.hprmyy.cn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3651228,
+          30.8900187
+        ]
+      },
+      "id": "way/1078913421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1079040718",
+        "addr:city": "武汉",
+        "addr:district": "江岸",
+        "addr:housenumber": "5",
+        "addr:province": "湖北",
+        "addr:street": "惠济路",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "长江航运总医院",
+        "name:en": "General Hospital of the Yangtze River Shipping",
+        "name:zh": "长江航运总医院",
+        "start_date": "1954",
+        "website": "https://www.chzyy.com.cn/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2818852,
+          30.6090418
+        ]
+      },
+      "id": "way/1079040718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1079041931",
+        "alt_name": "江汉大学附属医院",
+        "alt_name:en": "Jianghan University Affiliated Hospital",
+        "alt_name:zh": "江汉大学附属医院",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "武汉市第六医院",
+        "name:en": "Wuhan No.6 Hospital",
+        "name:zh": "武汉市第六医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2850232,
+          30.6026358
+        ]
+      },
+      "id": "way/1079041931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1079107468",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "金银湖街社区卫生服务中心（北院区）",
+        "name:zh": "金银湖街社区卫生服务中心（北院区）",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2157662,
+          30.667096
+        ]
+      },
+      "id": "way/1079107468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1083980047",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "洪山区妇幼保健院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2871171,
+          30.4817204
+        ]
+      },
+      "id": "way/1083980047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1083980048",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "湖北省妇幼保健院洪山院区",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.285937,
+          30.4813327
+        ]
+      },
+      "id": "way/1083980048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084016363",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉大学人民医院 (湖北省人民医院) 洪山院区",
+        "name:zh": "武汉大学人民医院 (湖北省人民医院) 洪山院区",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2792303,
+          30.4769431
+        ]
+      },
+      "id": "way/1084016363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1104852021",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市武昌医院南湖院区",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.335189,
+          30.4942774
+        ]
+      },
+      "id": "way/1104852021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1109544326",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "landuse": "military",
+        "name": "中国人民解放军空降兵部队医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2993929,
+          30.6231721
+        ]
+      },
+      "id": "way/1109544326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1116122517",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "王家河衛生院長堰分院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4463473,
+          31.0097101
+        ]
+      },
+      "id": "way/1116122517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1124414152",
+        "amenity": "clinic",
+        "name": "校医院",
+        "name:en": "Hospital of HZAU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3483112,
+          30.4762599
+        ]
+      },
+      "id": "node/1124414152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1133967510",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "新洲区仓埠中心卫生院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.5953253,
+          30.8337133
+        ]
+      },
+      "id": "way/1133967510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1135390493",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "左岭社区卫生服务中心",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.6015947,
+          30.4959287
+        ]
+      },
+      "id": "way/1135390493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1143369262",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3871137,
+          30.4547248
+        ]
+      },
+      "id": "node/1143369262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1143402225",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3447805,
+          30.477677
+        ]
+      },
+      "id": "node/1143402225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1206064383",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市第四医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2377008,
+          30.6581029
+        ]
+      },
+      "id": "way/1206064383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1206593743",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "索河街道卫生院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9005353,
+          30.5253716
+        ]
+      },
+      "id": "way/1206593743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1207079991",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "东西湖区第二人民医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2491769,
+          30.6526228
+        ]
+      },
+      "id": "way/1207079991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1211999341",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉常福医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9573659,
+          30.4502375
+        ]
+      },
+      "id": "way/1211999341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1214231744",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "汉兴街社区卫生服务中心",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2558425,
+          30.6325315
+        ]
+      },
+      "id": "way/1214231744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1219252200",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市中心医院（后湖院区）",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.260088,
+          30.6309172
+        ]
+      },
+      "id": "way/1219252200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1220200280",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉艾格眼科医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2756873,
+          30.6252994
+        ]
+      },
+      "id": "way/1220200280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1222154192",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市武东医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4573417,
+          30.5770553
+        ]
+      },
+      "id": "way/1222154192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1222163975",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武东街道东区社区卫生服务中心",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4582239,
+          30.5815949
+        ]
+      },
+      "id": "way/1222163975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1222172112",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武钢第二职工医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4824912,
+          30.6047275
+        ]
+      },
+      "id": "way/1222172112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1222394187",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "协和东西湖医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1266783,
+          30.6503422
+        ]
+      },
+      "id": "way/1222394187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1223111607",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "东西湖区康复医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1179436,
+          30.646029
+        ]
+      },
+      "id": "way/1223111607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1224006809",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉泰康之家楚园康复医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4874299,
+          30.5697238
+        ]
+      },
+      "id": "way/1224006809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1224667858",
+        "addr:city": "武汉",
+        "addr:district": "武昌",
+        "addr:housenumber": "116",
+        "addr:province": "湖北",
+        "addr:street": "杨园街",
+        "amenity": "hospital",
+        "description": "西区为医院本院区，设有24小时急诊和内科、外科、骨科、老年病科、妇产科、儿科、口腔科、皮肤科、医疗美容科、眼科、耳鼻咽喉科、重症医学科、感染性疾病科、药学部、医学检验科、放射科、超声科、高压氧室等门诊和医技科室。 该院区设有呼吸内科（老年病科）、消化内科、心血管内科、神经内科、普外科、泌尿外科、痔瘘科、骨科、神经外科、妇产科、眼科、耳鼻咽喉科、儿科等病区。医院行政办公区域也设在本院区。",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;surgery",
+        "name": "武汉市武昌医院(西区)",
+        "name:zh-Hans": "武汉市武昌医院(西区)",
+        "operator": "武汉市卫生健康委员会",
+        "operator:type": "public",
+        "phone": "+86 181 6253 3930",
+        "start_date": "1912",
+        "website": "https://www.whwcyy.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3359315,
+          30.604838
+        ]
+      },
+      "id": "way/1224667858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1224667860",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市武昌医院（东区）",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3398839,
+          30.6078311
+        ]
+      },
+      "id": "way/1224667860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1225822178",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市汉口医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2949078,
+          30.6279459
+        ]
+      },
+      "id": "way/1225822178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1225822202",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市心理医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3032602,
+          30.6272228
+        ]
+      },
+      "id": "way/1225822202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1227724540",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "湖北大中中医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3171829,
+          30.5333956
+        ]
+      },
+      "id": "way/1227724540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1250972600",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市第八医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2993137,
+          30.6511548
+        ]
+      },
+      "id": "way/1250972600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1250979506",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "商职医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3356223,
+          30.6647705
+        ]
+      },
+      "id": "way/1250979506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1255933781",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2666382,
+          30.6454194
+        ]
+      },
+      "id": "way/1255933781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1280158897",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "普安药房"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3968999,
+          30.5079219
+        ]
+      },
+      "id": "node/1280158897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1280496937",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市中医医院汉口院区",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2923304,
+          30.590866
+        ]
+      },
+      "id": "way/1280496937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1281077359",
+        "addr:city": "武汉市",
+        "addr:district": "江汉区",
+        "addr:housenumber": "392",
+        "addr:province": "湖北省",
+        "addr:street": "香港路",
+        "alt_name": "协和武汉红十字会医院;武汉市第十一医院",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市红十字会医院",
+        "name:en": "Wuhan Red Cross Hospital",
+        "name:zh": "武汉市红十字会医院",
+        "official_name": "华中科技大学同济医学院协和武汉红十字会医院",
+        "operator": "华中科技大学同济医学院协和医院",
+        "operator:type": "public",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2677537,
+          30.6164945
+        ]
+      },
+      "id": "way/1281077359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1282454828",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "关山街社区卫生服务站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4065214,
+          30.5101016
+        ]
+      },
+      "id": "node/1282454828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1312132129",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "大集街卫生院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0463673,
+          30.5088666
+        ]
+      },
+      "id": "way/1312132129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1313497394",
+        "addr:street": "中國湖北省武汉市武昌区中南商圈中南二路6号",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市第七医院",
+        "name:en": "Wuhan No. 7 Hospital",
+        "name:zh-Hans": "武汉市第七医院",
+        "name:zh-Hant": "武漢市第七醫院",
+        "website": "http://www.hospital7.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3264354,
+          30.5444176
+        ]
+      },
+      "id": "way/1313497394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1313635971",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉首义玛丽亚妇产医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3044114,
+          30.5371478
+        ]
+      },
+      "id": "way/1313635971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1313922762",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "车站社区卫生服务中心",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2905289,
+          30.5932778
+        ]
+      },
+      "id": "way/1313922762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1313922764",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "湖北省中西医结合医院中山分部",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2917312,
+          30.5916626
+        ]
+      },
+      "id": "way/1313922764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1314542735",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市第三医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2974655,
+          30.5432093
+        ]
+      },
+      "id": "way/1314542735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1314817377",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "协和医院肿瘤诊疗研究中心",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.257475,
+          30.6153629
+        ]
+      },
+      "id": "way/1314817377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1315520944",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "协和医院（金银湖院区）",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1900372,
+          30.6746503
+        ]
+      },
+      "id": "way/1315520944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1320223786",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市肺科医院新院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1657785,
+          30.6134709
+        ]
+      },
+      "id": "way/1320223786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1321762152",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "省中西医结合医院江北院区",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2729141,
+          30.5921308
+        ]
+      },
+      "id": "way/1321762152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1321816130",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市辛安渡街卫生院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9318674,
+          30.7436695
+        ]
+      },
+      "id": "way/1321816130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1321841985",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市新沟镇街卫生院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9414759,
+          30.6957997
+        ]
+      },
+      "id": "way/1321841985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1322034266",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "东西湖区东山街卫生院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0125145,
+          30.7772526
+        ]
+      },
+      "id": "way/1322034266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1323350555",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市东西湖区妇幼保健院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1272972,
+          30.6297111
+        ]
+      },
+      "id": "way/1323350555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1323350556",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "东西湖中医医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1272828,
+          30.6284287
+        ]
+      },
+      "id": "way/1323350556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1323550192",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉华茂医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.238067,
+          30.6205129
+        ]
+      },
+      "id": "way/1323550192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1324262454",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "冶金街社区卫生服务中心",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4005648,
+          30.6272312
+        ]
+      },
+      "id": "way/1324262454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1324274863",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "华润武钢总医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3980412,
+          30.6344026
+        ]
+      },
+      "id": "way/1324274863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1338004071",
+        "addr:city": "武汉市",
+        "addr:district": "洪山区",
+        "addr:housenumber": "216",
+        "addr:province": "湖北省",
+        "addr:street": "关山大道",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市第三医院光谷院区",
+        "opening_hours": "24/7",
+        "phone": "027-65399806",
+        "website": "https://www.whsyy.net",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4051695,
+          30.5013704
+        ]
+      },
+      "id": "way/1338004071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1342569232",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市普仁江岸医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.322921,
+          30.6374807
+        ]
+      },
+      "id": "way/1342569232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1342569234",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市汉口医院（东区）",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3145268,
+          30.6304964
+        ]
+      },
+      "id": "way/1342569234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1353880270",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3452037,
+          30.6081885
+        ]
+      },
+      "id": "way/1353880270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1366494365",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "geriatrics",
+        "name": "武汉科技大学附属第二医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2592208,
+          30.4459003
+        ]
+      },
+      "id": "way/1366494365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1382965663",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市蔡甸区妇幼保健院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0290577,
+          30.5855717
+        ]
+      },
+      "id": "way/1382965663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1392073252",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉珂信肿瘤医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2655488,
+          30.4676837
+        ]
+      },
+      "id": "way/1392073252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1410514093",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉交通职业学院校医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2628337,
+          30.4300293
+        ]
+      },
+      "id": "way/1410514093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1411750210",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "湖北省中医院",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3045604,
+          30.5530757
+        ]
+      },
+      "id": "way/1411750210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1481938104",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "荣军医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3718676,
+          30.5080757
+        ]
+      },
+      "id": "node/1481938104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1708308749",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉理工大学余家头校区医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.350843,
+          30.6058182
+        ]
+      },
+      "id": "node/1708308749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1880458927",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉博大医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2841943,
+          30.581932
+        ]
+      },
+      "id": "node/1880458927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1880487196",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "江岸区先锋医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.284222,
+          30.5887033
+        ]
+      },
+      "id": "node/1880487196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1882108666",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市第八医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3000568,
+          30.6060589
+        ]
+      },
+      "id": "node/1882108666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1882357302",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉亚洲心脏病医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2770445,
+          30.5854626
+        ]
+      },
+      "id": "node/1882357302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1884998943",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2610786,
+          30.568009
+        ]
+      },
+      "id": "node/1884998943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1886678465",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市汉水医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2353011,
+          30.5777662
+        ]
+      },
+      "id": "node/1886678465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1886687070",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2381228,
+          30.5772538
+        ]
+      },
+      "id": "node/1886687070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1887811858",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2258477,
+          30.589437
+        ]
+      },
+      "id": "node/1887811858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1926801043",
+        "amenity": "pharmacy",
+        "dispensing": "no",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2754228,
+          30.5994222
+        ]
+      },
+      "id": "node/1926801043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2401208945",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "南湖妇产医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3195174,
+          30.5155593
+        ]
+      },
+      "id": "node/2401208945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2446691098",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉博仕肛肠医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3105842,
+          30.5553859
+        ]
+      },
+      "id": "node/2446691098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2570979019",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉理工大学校医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3420498,
+          30.5254591
+        ]
+      },
+      "id": "node/2570979019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3061019294",
+        "addr:city": "武汉市",
+        "addr:district": "洪山区",
+        "addr:postcode": "430074",
+        "addr:province": "湖北省",
+        "addr:street": "鲁磨路",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "中国地质大学医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3977511,
+          30.5231498
+        ]
+      },
+      "id": "node/3061019294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4475011096",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武昌医院体检中心",
+        "name:en": "Wuchang Hospital Medical Examination Center",
+        "name:zh": "武昌医院体检中心"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3399096,
+          30.6076941
+        ]
+      },
+      "id": "node/4475011096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4711176689",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉艾尔眼科医院",
+        "name:zh": "武汉艾尔眼科医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3138701,
+          30.5418413
+        ]
+      },
+      "id": "node/4711176689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6356447146",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "药店"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4884053,
+          30.476896
+        ]
+      },
+      "id": "node/6356447146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6606706387",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name:en": "Health Students Large Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3775367,
+          30.4668127
+        ]
+      },
+      "id": "node/6606706387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7170382617",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市第四医院常青分院",
+        "name:en": "Wuhan No.4 Hospital Changqing Branch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2301337,
+          30.6385447
+        ]
+      },
+      "id": "node/7170382617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7170382618",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市第四健康门诊",
+        "name:en": "Wuhan No.4 Health Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2148304,
+          30.561203
+        ]
+      },
+      "id": "node/7170382618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7170382619",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉科技大学附属普仁医院",
+        "name:en": "Wuhan Puren Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.375194,
+          30.6342616
+        ]
+      },
+      "id": "node/7170382619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7211056740",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name:en": "Wuhan Mental Health Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2684131,
+          30.577025
+        ]
+      },
+      "id": "node/7211056740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7945755602",
+        "amenity": "pharmacy",
+        "brand": "Mannings",
+        "brand:wikidata": "Q13646560",
+        "brand:wikipedia": "en:Mannings",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Mannings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2314914,
+          30.6524631
+        ]
+      },
+      "id": "node/7945755602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8774650551",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉新洲佳人医院",
+        "name:en": "Wuhan Xinzhoujiaren Hospital",
+        "name:zh": "武汉新洲佳人医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.8027616,
+          30.8350412
+        ]
+      },
+      "id": "node/8774650551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9555974805",
+        "alt_name": "校医院信息学部二门诊院区",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武大测绘社区卫生服务站",
+        "website": "https://hospital.whu.edu.cn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3522021,
+          30.5313869
+        ]
+      },
+      "id": "node/9555974805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9705114732",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4136113,
+          30.5085366
+        ]
+      },
+      "id": "node/9705114732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9722082996",
+        "amenity": "clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4146641,
+          30.5457726
+        ]
+      },
+      "id": "node/9722082996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9860694411",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "洪山区梨园街社区卫生服务中心"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3439911,
+          30.5898976
+        ]
+      },
+      "id": "node/9860694411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9860726615",
+        "addr:city": "武汉",
+        "addr:district": "武昌",
+        "addr:housenumber": "1",
+        "addr:street": "友谊大道才华街",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉京都结石医院",
+        "operator": "武汉京都结石泌尿外科医院有限公司",
+        "operator:type": "private",
+        "website": "http://www.hbjieshi.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3406523,
+          30.5960435
+        ]
+      },
+      "id": "node/9860726615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9864730113",
+        "amenity": "pharmacy",
+        "name": "益丰大药房"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3675256,
+          30.6246896
+        ]
+      },
+      "id": "node/9864730113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9864730116",
+        "amenity": "clinic",
+        "name": "青山区红卫路街社区卫生服务中心"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3677938,
+          30.6248791
+        ]
+      },
+      "id": "node/9864730116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9868840604",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "康源大药房"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.793985,
+          30.8359608
+        ]
+      },
+      "id": "node/9868840604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9868918633",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "新洲区红十字会医院",
+        "name:zh": "新洲区邾城街第二社区卫生服务中心"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.7915284,
+          30.8458487
+        ]
+      },
+      "id": "node/9868918633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9880823127",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "门诊部"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3746051,
+          30.6264521
+        ]
+      },
+      "id": "node/9880823127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9880823128",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "急诊"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3747013,
+          30.6263325
+        ]
+      },
+      "id": "node/9880823128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10150955772",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "武汉市汉口医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2951136,
+          30.6284624
+        ]
+      },
+      "id": "node/10150955772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10743552430",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "惠仁大药房"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3519343,
+          30.5425858
+        ]
+      },
+      "id": "node/10743552430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11794894869",
+        "amenity": "hospital",
+        "name": "武汉德亚口腔医院",
+        "name:en": "Wuhan Deya Stomatological Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2567883,
+          30.617982
+        ]
+      },
+      "id": "node/11794894869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12561322327",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "汉阳爱尔眼科医院"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.222595,
+          30.563268
+        ]
+      },
+      "id": "node/12561322327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12698995479",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.5341113,
+          30.4969584
+        ]
+      },
+      "id": "node/12698995479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12699198282",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "未来科技城社区卫生服务站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.5358037,
+          30.4969243
+        ]
+      },
+      "id": "node/12699198282"
+    }
+  ]
+}

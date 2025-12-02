@@ -15,7 +15,7 @@ export default async () => {
     .source(roads_data)
     .size(1)
     .shape('line')
-    .color('#fffffff8')
+    .color('#ffffffff')
     .animate({
       trailLength: 2, // 流线长度
       duration: 2, // 持续时间

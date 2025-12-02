@@ -4,7 +4,7 @@
     :width="350" 
     trigger="click"
     :hide-after="0"
-    popper-class="model-popover"
+    popper-class="glass-popover"
     v-model:visible="popoverVisible">
     <template #reference>
       <slot></slot>
@@ -27,7 +27,7 @@
             </el-radio-group>
           </el-form-item>
           
-          <el-form-item 
+          <!-- <el-form-item 
             label="3D Tiles URL" 
             v-if="currentModelInfo && currentModelInfo.type === '3dtiles'">
             <el-input 
@@ -38,7 +38,7 @@
             <div class="picking-hint">
               请输入 3D Tiles 数据集的 tileset.json 文件 URL
             </div>
-          </el-form-item>
+          </el-form-item> -->
 
           <template v-if="currentModelInfo && currentModelInfo.type === 'obj'">
             <el-form-item label="放置位置">
@@ -138,16 +138,16 @@ const availableModels = ref([
     height: 0,
     scale: 10,
     rotation: 0,
-    defaultScale: 10
-  },
-  {
-    id: 'building-3dtiles',
-    name: '建筑模型 (3D Tiles)',
-    type: '3dtiles',
-    // 【重要修改】直接使用中文路径，不要手动编码
-    tilesetUrl: 'http://192.168.3.111:8088/gaeaExplorerServer/model/webqxsy/武汉未来科技城/tileset.json',
-    location: '114.297068, 30.547058'
-  }
+    defaultScale: 10}
+  // ,
+  // {
+  //   id: 'building-3dtiles',
+  //   name: '建筑模型 (3D Tiles)',
+  //   type: '3dtiles',
+  //   // 【重要修改】直接使用中文路径，不要手动编码
+  //   tilesetUrl: 'http://192.168.3.111:8088/gaeaExplorerServer/model/webqxsy/武汉未来科技城/tileset.json',
+  //   location: '114.297068, 30.547058'
+  // }
 ])
 
 // 当前选择的模型信息
@@ -365,87 +365,196 @@ onBeforeUnmount(() => {
 </script>
 
 <style scoped>
-/* 样式保持不变 */
+/* ==========================================================================
+   1. 根容器配置：强制覆盖 Element 变量，杜绝白框
+   ========================================================================== */
 .obj-models-container {
-  padding: 15px;
+  /* --- 核心修复：把所有涉及背景白的变量设为透明 --- */
+  --el-fill-color-blank: transparent !important;
+  --el-bg-color: transparent !important;
+  --el-bg-color-overlay: transparent !important;
+  --el-border-color: transparent !important;
+  --el-border-color-light: transparent !important;
+  
+  /* --- 文字颜色适配深色模式 --- */
+  --el-text-color-primary: #ffffff !important;
+  --el-text-color-regular: #a0cfff !important;
+  --el-text-color-placeholder: #5a7d9f !important;
+  --el-disabled-text-color: #4a5d73 !important;
+
+  /* --- 自身的玻璃面板样式 --- */
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", sans-serif;
+  
+  /* 深蓝磨砂背景 */
+  background: linear-gradient(145deg, rgba(4, 15, 30, 0.9) 0%, rgba(12, 35, 68, 0.85) 100%);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  
+  /* 容器边框发光 */
+  border: 1px solid rgba(64, 158, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  padding: 20px;
 }
+
+/* ==========================================================================
+   2. 深度穿透修复 (彻底清除 Input/Radio 白框)
+   ========================================================================== */
+
+/* 修复输入框 (Input) 的白底白框 */
+:deep(.el-input__wrapper) {
+  box-shadow: 0 0 0 1px rgba(64, 158, 255, 0.3) inset !important;
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+:deep(.el-input__wrapper.is-focus) {
+  box-shadow: 0 0 0 1px #409EFF inset !important;
+}
+:deep(.el-input__inner) {
+  color: #fff !important;
+}
+
+/* 修复单选框 (Radio) */
+:deep(.el-radio) {
+  color: #a0cfff !important;
+  margin-right: 0;
+  padding: 10px 12px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+/* 单选框未选中时的圆圈颜色 */
+:deep(.el-radio__inner) {
+  background-color: transparent !important;
+  border-color: rgba(64, 158, 255, 0.5) !important;
+}
+
+/* 单选框选中样式：深色高亮背景 */
+:deep(.el-radio.is-checked) {
+  background-color: rgba(64, 158, 255, 0.15) !important;
+  border: 1px solid rgba(64, 158, 255, 0.3);
+  box-shadow: 0 0 10px rgba(64, 158, 255, 0.1) inset;
+}
+:deep(.el-radio.is-checked .el-radio__label) {
+  color: #fff !important;
+  font-weight: bold;
+  text-shadow: 0 0 5px rgba(64, 158, 255, 0.4);
+}
+:deep(.el-radio__input.is-checked .el-radio__inner) {
+  background: #409EFF !important;
+  border-color: #409EFF !important;
+}
+
+/* 修复按钮 (Button) */
+:deep(.el-button) {
+  background: rgba(64, 158, 255, 0.15) !important;
+  border: 1px solid rgba(64, 158, 255, 0.3) !important;
+  color: #fff !important;
+}
+:deep(.el-button:hover) {
+  background: rgba(64, 158, 255, 0.3) !important;
+  border-color: #409EFF !important;
+  box-shadow: 0 0 8px rgba(64, 158, 255, 0.4);
+}
+:deep(.el-button.is-disabled) {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  color: #666 !important;
+}
+
+/* ==========================================================================
+   3. 内部布局样式优化
+   ========================================================================== */
 
 .models-header {
   margin-bottom: 20px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #ebeef5;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(64, 158, 255, 0.2); /* 蓝光分割线 */
 }
 
 .models-header h3 {
   margin: 0;
-  color: #303133;
+  color: #fff;
   font-size: 16px;
   font-weight: 600;
+  text-shadow: 0 0 8px rgba(64, 158, 255, 0.4); /* 文字发光 */
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-.models-content {
-  margin-top: 15px;
-}
-
+/* 单选组容器 */
 .model-radio-group {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
 
-.model-radio-group .el-radio {
-  margin-right: 0;
-  padding: 8px 12px;
-  border-radius: 4px;
-  transition: background-color 0.3s;
-}
-
-.model-radio-group .el-radio.is-checked {
-  background-color: #ecf5ff;
-}
-
+/* 底部操作区 */
 .model-actions {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 24px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(64, 158, 255, 0.15);
 }
 
 .location-input-group {
   display: flex;
   gap: 10px;
+  width: 100%;
 }
 
 .location-input-group .el-input {
   flex: 1;
 }
 
+/* 提示框：蓝光玻璃 */
 .picking-hint {
-  margin-top: 5px;
+  margin-top: 10px;
   font-size: 12px;
-  color: #409eff;
-  background-color: #ecf5ff;
-  padding: 5px 10px;
+  color: #a0cfff;
+  background-color: rgba(64, 158, 255, 0.1);
+  padding: 8px 12px;
   border-radius: 4px;
+  border: 1px solid rgba(64, 158, 255, 0.2);
   border-left: 3px solid #409eff;
 }
 
+/* 错误提示：红光玻璃 */
+.error-message {
+  margin-top: 15px;
+  color: #ff9b9b;
+  font-size: 13px;
+  background-color: rgba(245, 108, 108, 0.15);
+  padding: 10px 12px;
+  border-radius: 4px;
+  border: 1px solid rgba(245, 108, 108, 0.3);
+  display: flex;
+  align-items: center;
+}
+
+/* 加载动画 */
 .loading-indicator {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
-  color: #606266;
+  color: #a0cfff;
   font-size: 14px;
 }
 
 .spinner {
-  border: 4px solid rgba(0, 0, 0, 0.1);
-  border-left-color: #409eff;
+  border: 3px solid rgba(64, 158, 255, 0.1);
+  border-left-color: #409eff; /* 亮蓝旋转 */
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   animation: spin 1s linear infinite;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0 0 10px rgba(64, 158, 255, 0.2);
 }
 
 @keyframes spin {
@@ -453,26 +562,45 @@ onBeforeUnmount(() => {
   100% { transform: rotate(360deg); }
 }
 
-.error-message {
-  margin-top: 15px;
-  color: #f56c6c;
-  font-size: 14px;
-  background-color: #fef0f0;
-  padding: 8px 12px;
-  border-radius: 4px;
-  border-left: 3px solid #f56c6c;
-}
-
 .popover-footer {
   margin-top: 20px;
   padding-top: 10px;
-  border-top: 1px solid #ebeef5;
+  border-top: 1px solid rgba(64, 158, 255, 0.2);
   text-align: right;
 }
 </style>
-
 <style>
-.model-popover {
-  pointer-events: auto !important;
+/* 注意：这里没有 scoped，必须是全局样式才能穿透到 body 下的 popover */
+
+/* 1. 针对我们定义的 glass-popover 类，去掉所有默认白底 */
+.el-popover.glass-popover {
+  /* 背景全透明 */
+  background: transparent !important;
+  background-color: transparent !important;
+  
+  /* 去掉默认的灰色边框和阴影（因为你的内部容器已经自己写了好看的边框和阴影） */
+  border: none !important;
+  box-shadow: none !important;
+  
+  /* 去掉默认的内边距，让你内部的容器贴边 */
+  padding: 0 !important;
+  
+  /* 强制覆盖 Element 变量 (双重保险) */
+  --el-popover-bg-color: transparent !important;
+  --el-popover-border-color: transparent !important;
+  --el-popover-padding: 0 !important;
 }
+
+/* 2. 处理那个由于变透明而露出来的“小三角”箭头 */
+/* 方案A：直接隐藏箭头（推荐，看起来更悬浮） */
+.el-popover.glass-popover .el-popper__arrow {
+  display: none !important;
+}
+
+/* 方案B：如果你非要保留箭头，就得把它也变色（比较麻烦，容易有色差，不建议） */
+/* .el-popover.glass-popover .el-popper__arrow::before {
+  background: rgba(4, 15, 30, 0.9) !important;
+  border: 1px solid rgba(64, 158, 255, 0.3) !important;
+} 
+*/
 </style>

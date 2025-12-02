@@ -1,5 +1,5 @@
 <template>
-  <header class="header">智慧城市-武汉</header>
+  <header class="header">智慧城市系统-武汉</header>
 </template>
 
 <script setup></script>
@@ -11,8 +11,10 @@
   left: 0;
   width: 100%;
   height: 100px;
-  line-height: 100px;
-  font-size: 42px;               /* 再大一点 */
+  box-sizing: border-box;
+  line-height: 0.85;
+  padding-top: 20px;
+  font-size: 48px;               /* 再大一点 */
   font-family: 'Orbitron', 'Rajdhani', sans-serif; /* 免费赛博字体 */
   font-weight: 700;
   letter-spacing: 4px;

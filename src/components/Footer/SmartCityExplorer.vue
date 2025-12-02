@@ -1,5 +1,5 @@
 <template>
-  <el-popover placement="top" trigger="click" :width="400">
+  <el-popover popper-class="city-explorer-popover" placement="top" trigger="click" :width="400">
     <template #reference>
       <slot></slot>
     </template>
@@ -232,10 +232,76 @@ function formatRadius(val) {
 </script>
 
 <style scoped>
+/* =========================================================
+   1. 根容器配置：定义局部变量，强制覆盖 Element Plus 默认白色
+   ========================================================= */
 .city-explorer {
+  /* --- 核心修复：把 Element Plus 的默认白底变量全部设为透明 --- */
+  --el-bg-color: transparent !important;
+  --el-bg-color-overlay: transparent !important;
+  --el-fill-color-blank: transparent !important; /* 修复 Input/Select 白底 */
+  --el-card-bg-color: transparent !important;    /* 修复 Card 白底 */
+  --el-border-color-light: rgba(64, 158, 255, 0.2); /* 修复默认灰边框 */
+  --el-text-color-primary: #ffffff; /* 默认文字变白 */
+  --el-text-color-regular: #d1edff; /* 次要文字变蓝白 */
+
+  /* --- 自身的玻璃面板样式 --- */
   width: 100%;
-  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+  
+  /* 深蓝磨砂背景 */
+  background: linear-gradient(145deg, rgba(12, 35, 68, 0.8) 0%, rgba(4, 15, 30, 0.9) 100%);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  
+  /* 边框发光 */
+  border: 1px solid rgba(64, 158, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  padding: 20px;
+  box-sizing: border-box;
 }
+
+/* =========================================================
+   2. 穿透修复：暴力清除内部组件的白框/白底
+   ========================================================= */
+
+/* 如果外层误用了 el-card，强制去背景去边框 */
+:deep(.el-card) {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+:deep(.el-card__body) {
+  padding: 0 !important;
+}
+
+/* 修复 Input 输入框白底 */
+:deep(.el-input__wrapper),
+:deep(.el-textarea__wrapper),
+:deep(.el-select__wrapper) {
+  background-color: rgba(0, 0, 0, 0.25) !important; /* 深色半透明底 */
+  box-shadow: 0 0 0 1px rgba(64, 158, 255, 0.3) inset !important; /* 蓝光边框 */
+}
+:deep(.el-input__inner) {
+  color: #fff !important;
+}
+
+/* 修复 Tabs 标签页底部的灰色线条 */
+:deep(.el-tabs__nav-wrap::after) {
+  background-color: rgba(64, 158, 255, 0.1) !important;
+}
+:deep(.el-tabs__item) {
+  color: #a0cfff !important;
+}
+:deep(.el-tabs__item.is-active) {
+  color: #409EFF !important;
+  text-shadow: 0 0 8px rgba(64, 158, 255, 0.5);
+}
+
+/* =========================================================
+   3. 内部布局样式 (保持您原有的布局逻辑)
+   ========================================================= */
 
 .explorer-header {
   display: flex;
@@ -252,48 +318,34 @@ function formatRadius(val) {
 .title-with-icon {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
+/* 图标：发光蓝盒 */
 .title-icon {
   font-size: 24px;
   color: #409EFF;
-  background-color: rgba(64, 158, 255, 0.1);
-  padding: 6px;
+  background-color: rgba(64, 158, 255, 0.15);
+  padding: 8px;
   border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid rgba(64, 158, 255, 0.2);
+  box-shadow: 0 0 10px rgba(64, 158, 255, 0.1);
 }
 
+/* 标题：发光白字 */
 .header-content h3 {
   margin: 0;
   font-size: 18px;
-  color: #303133;
+  color: #fff;
   font-weight: 600;
-}
-
-.header-badges {
-  display: flex;
-  gap: 8px;
+  text-shadow: 0 0 5px rgba(64, 158, 255, 0.5);
 }
 
 .custom-tabs :deep(.el-tabs__header) {
   margin-bottom: 15px;
-}
-
-.custom-tabs :deep(.el-tabs__nav-wrap) {
-  padding-bottom: 0;
-}
-
-.custom-tabs :deep(.el-tabs__item) {
-  height: 36px;
-  line-height: 36px;
-  font-size: 14px;
-}
-
-.feature-content {
-  padding: 5px 0 15px;
 }
 
 .feature-intro {
@@ -301,17 +353,8 @@ function formatRadius(val) {
   align-items: center;
   gap: 8px;
   margin-bottom: 15px;
-  color: #409EFF;
+  color: #a0cfff;
   font-size: 14px;
-}
-
-.feature-icon {
-  font-size: 18px;
-}
-
-.explorer-form {
-  margin-bottom: 15px;
-  width: 100%;
 }
 
 .form-row {
@@ -327,22 +370,13 @@ function formatRadius(val) {
   margin-top: 15px;
 }
 
-.travel-mode {
-  margin-bottom: 0;
-  
-  
-}
-
-.action-buttons {
-  margin-bottom: 0;
-  
-}
-
+/* 错误提示：红光玻璃 */
 .error-message {
-  color: #f56c6c;
+  color: #fab6b6;
   margin: 12px 0;
   padding: 8px 12px;
-  background-color: #fef0f0;
+  background-color: rgba(245, 108, 108, 0.15);
+  border: 1px solid rgba(245, 108, 108, 0.3);
   border-radius: 4px;
   font-size: 13px;
   display: flex;
@@ -350,79 +384,46 @@ function formatRadius(val) {
   gap: 5px;
 }
 
+/* 路径信息：绿光玻璃 */
 .route-info {
-  background-color: #f0f9eb;
+  background-color: rgba(103, 194, 58, 0.1);
+  border: 1px solid rgba(103, 194, 58, 0.3);
   border-radius: 4px;
   padding: 12px;
   margin-top: 15px;
 }
-
 .route-header {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  color: #67c23a;
+  color: #95d475;
   font-weight: 600;
   font-size: 14px;
   margin-bottom: 8px;
 }
-
-.route-details {
-  font-size: 13px;
-}
-
-.detail-item {
-  margin-bottom: 5px;
-  display: flex;
-  align-items: baseline;
-}
-
 .detail-label {
-  color: #606266;
-  font-weight: 500;
-  margin-right: 5px;
+  color: #a0cfff;
   min-width: 70px;
 }
-
 .detail-value {
-  color: #303133;
+  color: #fff;
 }
 
-.analysis-result {
-  margin-top: 15px;
-}
-
+/* 分析摘要：蓝光玻璃 */
 .analysis-summary {
-  background-color: #f4f4f5;
+  background-color: rgba(64, 158, 255, 0.1);
+  border: 1px solid rgba(64, 158, 255, 0.2);
   padding: 12px;
   border-radius: 4px;
   margin-bottom: 15px;
 }
-
-.summary-header {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  margin-bottom: 8px;
-}
-
 .summary-header h4 {
   margin: 0;
   font-size: 14px;
-  color: #303133;
+  color: #d1edff;
 }
-
-.summary-header i {
-  color: #909399;
-}
-
 .analysis-summary p {
-  margin: 0;
-  font-size: 13px;
-  color: #606266;
-  line-height: 1.5;
+  color: #cddfe6;
 }
 
+/* 统计卡片：深色半透明 */
 .analysis-stats {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -430,79 +431,86 @@ function formatRadius(val) {
 }
 
 .stat-item {
-  background-color: #f5f7fa;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(64, 158, 255, 0.15);
   padding: 12px;
   border-radius: 4px;
   display: flex;
   align-items: center;
-  gap: 12px;
+  margin-bottom: 0; /* Grid布局下不需要 margin-bottom */
+  transition: all 0.3s;
+}
+
+.stat-item:hover {
+  background-color: rgba(64, 158, 255, 0.1);
+  border-color: rgba(64, 158, 255, 0.4);
 }
 
 .stat-icon {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #409EFF;
-  color: white;
+  background-color: rgba(64, 158, 255, 0.15);
+  color: #409EFF;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  margin-right: 12px;
+  border: 1px solid rgba(64, 158, 255, 0.2);
 }
 
-.stat-icon i {
-  font-size: 20px;
+.stat-icon img {
+  width: 20px;
+  height: 20px;
 }
 
 .stat-content {
+  flex: 1;
   display: flex;
   flex-direction: column;
 }
 
 .stat-title {
   font-size: 12px;
-  color: #606266;
-  margin-bottom: 3px;
+  color: #a0cfff;
+  margin-bottom: 2px;
 }
 
 .stat-value {
   font-size: 18px;
   font-weight: 600;
-  color: #303133;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+</style>
+<style>
+/* =========================================================
+   全局样式：专门处理“城市智慧探索”Popove的外壳
+   注意：这里没有 scoped，必须是全局样式才能生效
+   ========================================================= */
+
+/* 1. 把最外层容器彻底变透明 */
+.el-popover.city-explorer-popover {
+  /* 背景透明 */
+  background: transparent !important;
+  background-color: transparent !important;
+  
+  /* 去掉默认的白边框和阴影 */
+  border: none !important;
+  box-shadow: none !important;
+  
+  /* 去掉内边距，让你内部的 .city-explorer 贴边显示 */
+  padding: 0 !important;
+
+  /* 覆盖 Element 变量 (双重保险) */
+  --el-popover-bg-color: transparent !important;
+  --el-popover-border-color: transparent !important;
+  --el-popover-padding: 0 !important;
 }
 
-
-/* 容器样式 */
-.stat-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 15px;
-}
-
-/* 图标样式 */
-.stat-icon {
-  margin-right: 10px;
-}
-
-.stat-icon img {
-  width: 19px; /* 图标大小 */
-  height: 19px;
-  object-fit: cover; /* 确保图片填充整个容器 */
-}
-
-/* 内容样式 */
-.stat-content {
-  flex: 1;
-}
-
-.stat-title {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.stat-value {
-  font-size: 14px;
-  color: #666;
+/* 2. 隐藏那个凸出来的白色小三角箭头 */
+.el-popover.city-explorer-popover .el-popper__arrow {
+  display: none !important;
 }
 </style>

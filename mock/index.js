@@ -12,9 +12,9 @@ const wuhan_events = require('./Wuhan_events.json')
 // 4. 武汉桥梁数据 (假设有桥梁数据文件)
 const wuhan_bridges = require('./Wuhan_bridges.json') // 替换为实际的桥梁数据文件路径
 
-const underground_pipes = require('./Underground_pipes.json') // 假设有地下水管道数据文件
+const underground_pipes = require('./underground_pipes.json') // 假设有地下水管道数据文件
 
-const power_grid = require('./Power_grid.json') // 假设有电网数据文件
+const power_grid = require('./power_grid.json') // 假设有电网数据文件
 
 const hospital = require('./hospital.json') // 假设有医院数据文件
 
@@ -22,7 +22,7 @@ const university= require('./university.json') // 假设有学校数据文件
 
 const people_heatmap = require('./people_heatmap.json') // 假设有热力图数据文件
 
-// const university_heatmap = require('./university_heatmap.json') // 假设有热力图数据文件
+
 
 // 导出函数
 module.exports = () => {
@@ -36,6 +36,6 @@ module.exports = () => {
     hospital, // 添加医院数据
     university, // 添加学校数据
     people_heatmap,
-    // university_heatmap
+    
   })
 }
