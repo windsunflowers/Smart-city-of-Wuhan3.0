@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div class="welcome-container" :class="{ 'fade-out': isExiting }">
     <!-- 浩瀚宇宙风格背景 -->
     <div class="cyber-background">
@@ -807,4 +807,4 @@ const emit = defineEmits(['enter']);
     gap: 20px;
   }
 }
-</style> 
+</style>  -->

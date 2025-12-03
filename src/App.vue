@@ -1,6 +1,6 @@
 <template>
-  <Welcome v-if="!hasEntered" @enter="enterApplication" />
-  <template v-else>
+  <!-- <Welcome v-if="!hasEntered" @enter="enterApplication" />
+  <template v-else> -->
     <Header />
     <SmartCity />
     <MapControls />
@@ -8,13 +8,13 @@
     <Camera />
     <G2Charts v-if="showCharts" />
     <Footer @toggleCharts="handleToggle" />
-  </template>
+  <!-- </template> -->
 </template>
 
 <script setup>
 import { ref } from 'vue'
 
-import Welcome from './components/Welcome.vue'
+// import Welcome from './components/Welcome.vue'
 import Header from './components/Header.vue'
 import SmartCity from './components/SmartCity/index.vue'
 import MapControls from './components/MapControls.vue'
