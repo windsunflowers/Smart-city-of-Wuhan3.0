@@ -1,10 +1,11 @@
-# Smart City of Wuhan 3.0
+<img width="2550" height="1361" alt="image" src="https://github.com/user-attachments/assets/0485f863-1247-4eb8-827b-b9d90dbf3cbe" /># Smart City of Wuhan 3.0
 
 基于 Vue 3 + Vite + Mapbox GL JS 开发的三维城市可视化系统。本项目主要用于展示武汉市地理空间数据，包含建筑白模、路网结构及城市运行数据的可视化分析。
 
 ## 预览
 
-[系统主界面](./src/assets/images/system.png)
+[系统主界面](./src/assets/images/system.png)![Uploading image.png…]()
+
 
 
 ## 主要功能
