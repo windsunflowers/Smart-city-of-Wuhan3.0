@@ -207,8 +207,12 @@ export default {
           return;
         }
 
+        // 高德 JS API 2.0 必须在加载脚本前配置安全密钥（securityJsCode，来自 .env 的 VITE_AMAP_SECURITY_CODE）
+        window._AMapSecurityConfig = {
+          securityJsCode: import.meta.env.VITE_AMAP_SECURITY_CODE
+        };
         const script = document.createElement('script');
-        script.src = `https://webapi.amap.com/maps?v=2.0&key=00f2e4d20900d6bd637c9aba1499c536&plugin=AMap.Heatmap`;
+        script.src = `https://webapi.amap.com/maps?v=2.0&key=${import.meta.env.VITE_AMAP_KEY}&plugin=AMap.Heatmap`;
         script.onload = () => {
           console.log('高德地图API加载完成');
           resolve();

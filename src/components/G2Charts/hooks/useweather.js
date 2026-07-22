@@ -1,8 +1,8 @@
 // weather.js - 武汉天气数据处理和配置
 import { ref, reactive, onMounted } from 'vue'
 
-// 高德地图API密钥
-const AMAP_KEY = '0f97806556d11f61231563d11f346ae2'
+// 高德地图API密钥（从 Vite 环境变量注入）
+const AMAP_KEY = import.meta.env.VITE_AMAP_KEY
 
 export function useWeather() {
   const weatherData = ref({

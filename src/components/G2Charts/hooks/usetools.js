@@ -246,7 +246,7 @@ class CityTools {
   async loadWeatherData() {
     try {
       // 通过高德地图天气API获取真实数据
-      const AMAP_KEY = '0f97806556d11f61231563d11f346ae2'; // 使用高德地图API密钥
+      const AMAP_KEY = import.meta.env.VITE_AMAP_KEY; // 使用高德地图API密钥
       const url = `https://restapi.amap.com/v3/weather/weatherInfo?key=${AMAP_KEY}&city=420100&extensions=base`;
       const response = await fetch(url);
       const data = await response.json();
@@ -331,7 +331,7 @@ class DetailModal {
             '黄陂区': '畅通',
             '新洲区': '畅通'
           },
-          imageUrl: `https://restapi.amap.com/v3/staticmap?zoom=11&size=600 * 400&traffic=1&key=9e7a5d877eb8b1489f8a0cb47226f75f&polygon=114.0,30.6;114.4,30.6;114.4,30.5;114.0,30.5`
+          imageUrl: `https://restapi.amap.com/v3/staticmap?zoom=11&size=600 * 400&traffic=1&key=${import.meta.env.VITE_AMAP_KEY}&polygon=114.0,30.6;114.4,30.6;114.4,30.5;114.0,30.5`
         };
       case 'scenic':
         return [
@@ -753,7 +753,7 @@ class DetailModal {
   refreshWeather() {
     if (this.type === 'weather') {
       // 调用真实的天气API
-      const AMAP_KEY = '0f97806556d11f61231563d11f346ae2';
+      const AMAP_KEY = import.meta.env.VITE_AMAP_KEY;
       fetch(`https://restapi.amap.com/v3/weather/weatherInfo?key=${AMAP_KEY}&city=420100&extensions=base`)
         .then(response => response.json())
         .then(data => {

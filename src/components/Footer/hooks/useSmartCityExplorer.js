@@ -1,8 +1,8 @@
 import { ref, inject, watch } from 'vue'
 import { LineLayer, PointLayer, PolygonLayer } from '@antv/l7'
 
-// Gaode API Key
-const AMAP_KEY = 'f4e4d20c830fd99f6e5e80904742395a'
+// Gaode API Key（从 Vite 环境变量注入，避免在代码中硬编码）
+const AMAP_KEY = import.meta.env.VITE_AMAP_KEY
 
 // --- 坐标系转换工具 (GCJ-02 -> WGS-84) ---
 const pi = 3.14159265358979324;

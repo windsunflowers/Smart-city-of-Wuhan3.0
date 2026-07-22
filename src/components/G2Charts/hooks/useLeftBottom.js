@@ -26,8 +26,8 @@ export const useLeftBottom = () => {
     animation: true,
   };
   
-  // 高德地图 API Key
-  const AMAP_KEY = '0f97806556d11f61231563d11f346ae2';
+  // 高德地图 API Key（从 Vite 环境变量注入）
+  const AMAP_KEY = import.meta.env.VITE_AMAP_KEY;
   
   // 获取实时公交数据
   const fetchBusData = async () => {
